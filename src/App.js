@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Home from "./Components/Home/Home";
 import Episodes from "./Components/Episodes/Episodes";
 import NotFound from "./Components/NotFound";
+import V4V from "./Components/V4V/V4V";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path ="/episodes" component={Episodes} />
-
+            <Route path ="/v4v" component={V4V} />
             <Route component={NotFound} />
           </Switch>
         </Router>
