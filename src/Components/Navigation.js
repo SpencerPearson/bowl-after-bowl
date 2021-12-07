@@ -1,10 +1,13 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
+import logo from '../images/BABLipsThumb.png'
 
 export default function Navigation() {
     return (
-        <Navbar variant='dark' expand="md" bg="dark" className="p-2">
-            <Navbar.Brand href="/">Bowl After Bowl</Navbar.Brand>
+        <Navbar variant='dark' expand="md" bg="info" className="p-2">
+            <Navbar.Brand className="text-success" href="/">Bowl After Bowl
+            <img src={logo} alt="Lips blowing smoke logo" />
+            </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>

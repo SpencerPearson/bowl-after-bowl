@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from '../Components/Banner'
+import Banner from '../Banner'
 import './Home.css'
-import image from '../images/BABCartoon.jpg'
+import image from '../../images/BABCartoon.jpg'
 
 export default function Home() {
     return (
