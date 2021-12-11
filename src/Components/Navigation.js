@@ -4,7 +4,7 @@ import logo from '../images/BABLipsThumb.png'
 
 export default function Navigation() {
     return (
-        <Navbar variant='dark' expand="md" bg="info" className="p-2">
+        <Navbar variant='dark' sticky='top' expand="md" bg="info" className="p-2">
             <Navbar.Brand className="text-success" href="/">Bowl After Bowl
             <img src={logo} alt="Lips blowing smoke logo" />
             </Navbar.Brand>

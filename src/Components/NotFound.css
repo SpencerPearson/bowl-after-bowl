@@ -1,3 +1,44 @@
+.notFound {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+}
+
 .notFound img {
-    width: 100%
+    width: 100%;
+    display: block;
+}
+
+.notFound h1 {
+    font-family: synthemesc, sans-serif;
+    font-size: 9vw;
+    padding-top: .2em;
+    padding-left: .7em;
+    padding-right: .7em;
+    -webkit-text-stroke-width: .05em;
+    -webkit-text-stroke-color: #764ba2;
+}
+.notFound h2 {
+    font-family: quicksand, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 6vw;
+    -webkit-text-stroke-width: .03em;
+    -webkit-text-stroke-color: #764ba2;
+}
+.notFound h3 a {
+    font-family: quicksand, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.inner-text {
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .4);
+    top: 30%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    opacity: 1;
+    
 }
