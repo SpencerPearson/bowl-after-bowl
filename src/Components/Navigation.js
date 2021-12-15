@@ -7,7 +7,7 @@ export default function Navigation() {
         <Navbar variant='dark' sticky='top' expand="md" bg="info" className="p-2">
             <Navbar.Brand className="text-success" href="/">Bowl After Bowl
             <img src={logo} alt="Lips blowing smoke logo" />
-            </Navbar.Brand>
+            </Navbar.Brand>            
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
