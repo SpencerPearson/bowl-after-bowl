@@ -1,6 +1,5 @@
 import "./App.css";
 import Navigation from "./Components/Navigation";
-import ReactAudioPlayer from "react-audio-player";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home/Home";

@@ -22,7 +22,7 @@ export default function Episodes() {
 
 
     const getEpisodes = () => {
-        axios.get("https://api.podcastindex.org/api/1.0/episodes/byfeedid?fu;;text=true&id=946122", {
+        axios.get("https://api.podcastindex.org/api/1.0/episodes/byfeedid?fulltext=true&id=946122", {
             headers: {
                 "X-Auth-Date" : {pci_date},
                 "X-Auth-Key" : {pci_keyval},
