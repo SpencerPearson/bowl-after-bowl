@@ -7,23 +7,24 @@ import './LiveStream.css'
 
 export default function LiveStream(props) {
 	return (
-		<div className="liveStrip">
+		<section className='liveHeader'>
+        <div className="liveStrip">
             <Marquee gradient={false} speed={50}>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
-                <ReactAudioPlayer
-					src='http://stream.bowlafterbowl.com:8000/bowlafterbowl'
-					controls
-				/>
-                <p className="liveMarquee">&emsp;LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
+                <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
                 <p className="liveMarquee">LISTEN LIVE &ensp;<FontAwesomeIcon icon={faCannabis} />&emsp;</p>
             </Marquee>
 		</div>
+        <div className='player'>
+            <ReactAudioPlayer src='https://stream.bowlafterbowl.com/listen/bowlafterbowl/stream.mp3' controls />
+        </div>
+        </section>
 	)
 }
